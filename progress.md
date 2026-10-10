@@ -18,11 +18,11 @@
 
 ## Azure Activity Logs
 
-- [ ] RBAC authorization failures — Ticket 14 NEXT
-- [ ] Resource changes
-- [ ] Failed deployments
-- [ ] Resource deletion
-- [ ] Configuration changes
+- [x] RBAC authorization failures
+- [x] Resource changes
+- [x] Failed deployments
+- [x] Resource deletion
+- [x] Configuration changes
 
 ## KQL
 
@@ -50,3 +50,4 @@
 - [ ] ORDER BY
 - [ ] JOIN
 - [ ] Basic support investigation queries
+
