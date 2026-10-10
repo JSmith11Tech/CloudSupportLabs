@@ -1,0 +1,29 @@
+// Azure / KQL practice queries will go here.
+
+// Show sample records
+AzureActivity
+| take 10
+
+// Select useful columns
+AzureActivity
+| project TimeGenerated, OperationNameValue, ActivityStatusValue
+
+// Show failures
+AzureActivity
+| where ActivityStatusValue == "Failure"
+
+// Last hour
+AzureActivity
+| where TimeGenerated > ago(1h)
+
+// Search operation names
+AzureActivity
+| where OperationNameValue contains "delete"
+
+// Count by status
+AzureActivity
+| summarize count() by ActivityStatusValue
+
+// Newest first
+AzureActivity
+| order by TimeGenerated desc
