@@ -66,6 +66,32 @@ AzureActivity
 
 ---
 
+
+## AWS CloudTrail and CloudWatch
+
+### IAM Authorization Troubleshooting
+
+A real S3 `CreateBucket` request was captured in CloudTrail first as an `AccessDenied` event and then as a successful event after correcting IAM permissions through a user group.
+
+![AWS CloudTrail authorization failure](aws/screenshots/aws-cloudtrail-createbucket-access-denied.png)
+
+![AWS CloudTrail successful retry](aws/screenshots/aws-cloudtrail-createbucket-success.png)
+
+### CloudWatch Logs Insights
+
+CloudWatch Logs Insights was used to isolate error messages from a support-oriented log stream.
+
+~~~text
+fields @timestamp, @message
+| filter @message like /ERROR/
+| sort @timestamp desc
+~~~
+
+![AWS CloudWatch Logs Insights](aws/screenshots/aws-cloudwatch-logs-insights-errors.png)
+
+[View the full AWS live lab](aws/live-labs.md)
+
+---
 ## Troubleshooting Labs
 
 ### Microsoft Entra Sign-In Logs
@@ -113,3 +139,4 @@ Additional repositories cover SQL support investigation and API / Postman troubl
 Live exercises were completed in a personal Microsoft Azure environment.
 
 Sensitive account, subscription, or credential information is redacted where appropriate.
+

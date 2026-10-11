@@ -54,3 +54,13 @@
 - [ ] Basic support investigation queries
 
 
+
+## AWS Logging
+
+- [x] CloudTrail management events
+- [x] AccessDenied investigation
+- [x] IAM group permissions
+- [x] Successful remediation verification
+- [x] CloudWatch log group / stream
+- [x] CloudWatch Logs Insights
+- [x] Error-message filtering
