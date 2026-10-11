@@ -1,6 +1,6 @@
 # Microsoft Entra Sign-In Log Labs
 
-## Ticket 1 — Conditional Access
+## Ticket 1 - Conditional Access
 
 **Result:** Failed
 
@@ -10,7 +10,7 @@
 
 ---
 
-## Ticket 2 — Device Compliance
+## Ticket 2 - Device Compliance
 
 **Result:** Failed
 
@@ -25,7 +25,7 @@
 
 ---
 
-## Ticket 3 — Invalid Credentials
+## Ticket 3 - Invalid Credentials
 
 **Result:** Failed
 
@@ -39,7 +39,7 @@
 
 ---
 
-## Ticket 4 — Untrusted Location
+## Ticket 4 - Untrusted Location
 
 **Result:** Failed
 
@@ -55,7 +55,7 @@
 
 ---
 
-## Ticket 5 — High-Risk Sign-In
+## Ticket 5 - High-Risk Sign-In
 
 **Result:** Failed
 
@@ -71,7 +71,7 @@
 
 ---
 
-## Ticket 6 — Administrative Role Requirement
+## Ticket 6 - Administrative Role Requirement
 
 **Result:** Failed for Azure management access
 
@@ -87,7 +87,7 @@
 
 ---
 
-## Ticket 7 — Enterprise Application Assignment
+## Ticket 7 - Enterprise Application Assignment
 
 **Result:** Failed
 
@@ -103,7 +103,7 @@
 
 ---
 
-## Ticket 8 — Guest Tenant Access
+## Ticket 8 - Guest Tenant Access
 
 **Result:** Failed
 
@@ -118,7 +118,7 @@
 
 ---
 
-## Ticket 9 — Corporate Network Requirement
+## Ticket 9 - Corporate Network Requirement
 
 **Result:** Failed
 
@@ -134,7 +134,7 @@
 
 ---
 
-## Ticket 10 — Authentication Strength
+## Ticket 10 - Authentication Strength
 
 **Result:** Failed
 
@@ -149,7 +149,7 @@
 
 ---
 
-## Ticket 11 — Sign-In Frequency
+## Ticket 11 - Sign-In Frequency
 
 **Result:** Session required reauthentication
 
@@ -165,7 +165,7 @@
 
 ---
 
-## Ticket 12 — Inactive Refresh Token
+## Ticket 12 - Inactive Refresh Token
 
 **Result:** Desktop failed; mobile succeeded
 
@@ -179,7 +179,7 @@
 
 ---
 
-## Ticket 13 — Resource Authorization
+## Ticket 13 - Resource Authorization
 
 **Result:** Dashboard access denied
 

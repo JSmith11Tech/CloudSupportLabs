@@ -4,7 +4,7 @@ These exercises were completed in a personal AWS lab environment using an IAM us
 
 Sensitive account identifiers, access-key information, source IP addresses, and request identifiers are redacted where appropriate.
 
-## CloudTrail — Authorization Failure
+## CloudTrail - Authorization Failure
 
 An IAM user attempted to create an S3 bucket before the required permissions were available.
 

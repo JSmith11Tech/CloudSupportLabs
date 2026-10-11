@@ -1,8 +1,8 @@
 # Cloud Support Labs
 
-Hands-on support engineering portfolio focused on Azure troubleshooting, identity and access management, logging, and technical investigation.
+Hands-on support engineering portfolio focused on Azure and AWS troubleshooting, identity and access management, logging, and technical investigation.
 
-This repository combines scenario-based troubleshooting with live exercises completed in a Microsoft Azure lab environment.
+This repository combines scenario-based troubleshooting with live exercises completed in Microsoft Azure and AWS lab environments.
 
 ---
 
@@ -36,6 +36,9 @@ AzureActivity
 - Resource and configuration change investigation
 - Failed deployment analysis
 - Azure RBAC troubleshooting
+- AWS CloudTrail
+- Amazon CloudWatch Logs Insights
+- AWS IAM authorization troubleshooting
 
 ### Identity & Access Management
 
@@ -130,15 +133,13 @@ The focus is on using available evidence to:
 
 ## Related Work
 
-Additional repositories cover SQL support investigation and API / Postman troubleshooting.
+Additional hands-on support engineering labs:
 
----
+- [Neon Grove API Support Lab](https://github.com/JSmith11Tech/neon-grove-api-support-lab) - REST APIs, HTTP, JSON, authentication, headers, Postman, and troubleshooting scenarios.
+- [SQL Learning Lab](https://github.com/JSmith11Tech/SQL-Learning-Lab) - SQL-based SaaS support investigation, ticket triage, customer impact, and resolution analysis.
 
 ## Lab Environment
 
 Live exercises were completed in a personal Microsoft Azure environment.
 
 Sensitive account, subscription, or credential information is redacted where appropriate.
-
-
-

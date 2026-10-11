@@ -1,6 +1,6 @@
 # Azure Activity Log Labs
 
-## Ticket 14 — RBAC Authorization Failure
+## Ticket 14 - RBAC Authorization Failure
 
 **Finding:** User authenticated successfully but could not restart the VM because the assigned Reader role did not permit the restart action.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Ticket 15 — Resource Deletion
+## Ticket 15 - Resource Deletion
 
 **Finding:** The VM did not crash. It was successfully deleted by an automation identity with sufficient permissions.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Ticket 16 — Network Configuration Change
+## Ticket 16 - Network Configuration Change
 
 **Finding:** The VM remained healthy, but an NSG rule was changed from allowing inbound HTTPS traffic to denying it.
 
@@ -36,7 +36,7 @@
 
 ---
 
-## Ticket 17 — Failed Deployment
+## Ticket 17 - Failed Deployment
 
 **Finding:** Authentication and authorization succeeded, but the deployment failed because the requested storage account name was unavailable.
 
@@ -49,7 +49,7 @@
 
 ---
 
-## Ticket 18 — KQL Log Investigation
+## Ticket 18 - KQL Log Investigation
 
 Status: NEXT LAB
 

@@ -36,24 +36,26 @@
 - [x] distinct
 - [x] and / combined conditions
 
-## API Troubleshooting
+## API Troubleshooting - Completed in Separate Repo
 
-- [ ] HTTP status codes
-- [ ] Request / response inspection
-- [ ] Authentication
-- [ ] Headers
-- [ ] JSON
-- [ ] Postman
+Repository: [Neon Grove API Support Lab](https://github.com/JSmith11Tech/neon-grove-api-support-lab)
 
-## SQL
+- [x] HTTP status codes
+- [x] Request / response inspection
+- [x] Authentication
+- [x] Headers
+- [x] JSON
+- [x] Postman
 
-- [ ] SELECT
-- [ ] WHERE
-- [ ] ORDER BY
-- [ ] JOIN
-- [ ] Basic support investigation queries
+## SQL - Completed in Separate Repo
 
+Repository: [SQL Learning Lab](https://github.com/JSmith11Tech/SQL-Learning-Lab)
 
+- [x] SELECT
+- [x] WHERE
+- [x] ORDER BY
+- [x] JOIN
+- [x] Basic support investigation queries
 
 ## AWS Logging
 
