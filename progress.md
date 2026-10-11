@@ -26,13 +26,15 @@
 
 ## KQL
 
-- [ ] take
-- [ ] project
-- [ ] where
-- [ ] ago()
-- [ ] contains
-- [ ] summarize
-- [ ] order by
+- [x] take
+- [x] project
+- [x] where
+- [x] ago()
+- [x] contains
+- [x] summarize
+- [x] order by
+- [x] distinct
+- [x] and / combined conditions
 
 ## API Troubleshooting
 
@@ -50,4 +52,5 @@
 - [ ] ORDER BY
 - [ ] JOIN
 - [ ] Basic support investigation queries
+
 
