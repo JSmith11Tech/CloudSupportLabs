@@ -20,9 +20,9 @@ AzureActivity
 | order by TimeGenerated desc
 ~~~
 
-![Filtered Azure Activity Log query](azure/activity-logs/screenshots/kql-filtered-tag-write.png)
+![Filtered Azure Activity Log query](azure/screenshots/kql-filtered-tag-write.png)
 
-[View the full live Azure lab](azure/activity-logs/live-labs.md)
+[View the full live Azure lab](azure/live-labs.md)
 
 ---
 
@@ -110,7 +110,7 @@ Investigations involving RBAC authorization, resource deletion, configuration ch
 
 Hands-on exercises performed using real Azure Activity Log data and Log Analytics.
 
-[View live Azure exercises](azure/activity-logs/live-labs.md)
+[View live Azure exercises](azure/live-labs.md)
 
 ---
 
@@ -139,4 +139,6 @@ Additional repositories cover SQL support investigation and API / Postman troubl
 Live exercises were completed in a personal Microsoft Azure environment.
 
 Sensitive account, subscription, or credential information is redacted where appropriate.
+
+
 
